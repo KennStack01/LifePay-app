@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
@@ -107,4 +106,3 @@ Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby f
 =======
 # LifePay-app
 A Payment systems app, aka "Linktree" for Payment systems links. This will include PayPal, AliPay, WeChat Pay, and other systems. This will allow the Client (an Organization) to get all their payment links in one App.
->>>>>>> bb2e54c5a84da7603f8720c21797b56de87ffedc
