@@ -1,9 +1,13 @@
 import React from 'react'
+import Layout from '../Components/PageComponents/Layout'
+import BankContent from '../Components/PageComponents/BankContent'
 
 const bank = () => {
     return (
         <div>
-            <h1>Hello, Bank!</h1>
+            <Layout>
+                <BankContent/>
+            </Layout>
         </div>
     )
 }
