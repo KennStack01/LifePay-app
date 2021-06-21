@@ -1,9 +1,13 @@
 import React from 'react'
+import Layout from '../Components/PageComponents/Layout'
+import AliPayContent from '../Components/PageComponents/AliPayContent'
 
 const alipay = () => {
     return (
         <div>
-            <h1>hello, AliPay!</h1>
+            <Layout>
+                <AliPayContent/>
+            </Layout>
         </div>
     )
 }

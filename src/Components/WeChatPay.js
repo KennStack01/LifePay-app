@@ -4,7 +4,7 @@ import { IoArrowForwardCircle } from 'react-icons/io5'
 
 const WeChatPay = () => {
     return (
-        <div className="flex flex-row justify-evenly mx-5 my-4 shadow-md p-3 rounded-md rounded-l-none border-l-8 border-gray-600 cursor-pointer">
+        <div className="flex flex-row justify-evenly mx-5 my-4 shadow-md p-3 rounded-md rounded-l-none border-l-8 border-gray-600 bg-white cursor-pointer">
             <div className="text-6xl" style={{color: "#5CC928"}}>
                 <RiWechatPayFill/>
             </div>

@@ -38,8 +38,8 @@ const HomeComponent = () => {
             {/* Footer */}
             <div>
                 <div className="flex flex-row justify-center text-xs text-center mt-7 p-3 shadow">
-                    <p className="mx-auto">About</p>
-                    <p className="mx-auto">Contact</p>
+                    <p className="mx-auto"><Link to="/about" className="font-bold border-blue-20 border-b-2">About</Link></p>
+                    <p className="mx-auto"><Link to="/contact" className="font-bold border-blue-20 border-b-2">Contact</Link></p>
                 </div>
             </div>
         </div>

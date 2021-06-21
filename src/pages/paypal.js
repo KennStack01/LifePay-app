@@ -1,9 +1,13 @@
 import React from 'react'
+import Layout from '../Components/PageComponents/Layout'
+import PayPalContent from '../Components/PageComponents/PayPalContent'
 
 const paypal = () => {
     return (
         <div>
-            <h1>Hello, PayPal!</h1>
+            <Layout>
+                <PayPalContent/>
+            </Layout>
         </div>
     )
 }

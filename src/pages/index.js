@@ -3,7 +3,7 @@ import HomeComponent from '../Components/HomeComponent'
 
 function Home() {
   return (
-    <div>
+    <div className="bg-gray-100">
       <HomeComponent/>
     </div>
   )
