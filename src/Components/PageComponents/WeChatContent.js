@@ -32,11 +32,14 @@ const WeChatContent = () => {
                     <img src={`${data.contentfulWeChatPay.qrCode.file.url}`} alt="WeChat Pay QR Code"/>
                 </div>
                 <div className="mx-7 mb-7 font-medium text-gray-500">
-                    <p> Scan this QR Code <span>👆</span> </p>
+                    <p> <span>👆</span> Hold this QR Code and Click on Pay </p>
                 </div>
+                {/* <a href="weixin://dl/profile/nahobupe" className="mx-7 my-8 font-semibold p-4 text-gray-100 rounded-3xl" style={{background: "#5CC928"}}>
+                    <p className="hover:text-white"> Click and Pay directly </p>
+                </a> */}
             </div>
-            <div className="flex flex-col mx-9 mt-5 p-2 italic shadow-md text-xs font-medium rounded bg-white">
-                <p>
+            <div className="flex flex-col mx-9 mt-5 p-2 shadow-md text-xs font-medium rounded bg-white">
+                <p className="italic">
                     “Come, all you who are thirsty, come to the waters;
                     and you who have no money, come, buy and eat!
                     Come, buy wine and milk without money and without cost.”

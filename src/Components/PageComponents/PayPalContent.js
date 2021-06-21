@@ -35,8 +35,8 @@ const PayPalContent = () => {
                     <p className="hover:text-white"> Click and Pay directly </p>
                 </a>
             </div>
-            <div className="flex flex-col mx-9 mt-5 p-2 italic shadow-md text-xs font-medium rounded bg-white">
-                <p>
+            <div className="flex flex-col mx-9 mt-5 p-2 shadow-md text-xs font-medium rounded bg-white">
+                <p className="italic">
                     “Come, all you who are thirsty, come to the waters;
                     and you who have no money, come, buy and eat!
                     Come, buy wine and milk without money and without cost.”
