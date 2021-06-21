@@ -19,7 +19,7 @@ const AliPayContent = () => {
 
     return (
         <div>
-            <div className="flex flex-col mx-9 shadow-md rounded bg-white">
+            <div className="flex flex-col md:grid grid-cols-1 place-items-center mx-9 md:w-96 md:mx-auto shadow-md rounded bg-white">
                 <div className="flex flex-row mx-auto mt-4">
                     <div className="text-5xl" style={{color: "#0e9dec"}}>
                         <AiFillAlipayCircle/>
@@ -35,7 +35,7 @@ const AliPayContent = () => {
                     <p> <span>👆</span> Hold this QR Code and Click to Open in "AliPay" </p>
                 </div>
             </div>
-            <div className="flex flex-col mx-9 mt-5 p-2 shadow-md text-xs font-medium rounded bg-white">
+            <div className="flex flex-col md:w-72 md:mx-auto mx-9 mt-5 p-2 shadow-md text-xs font-medium rounded bg-white">
                 <p className="italic">
                     “Come, all you who are thirsty, come to the waters;
                     and you who have no money, come, buy and eat!
