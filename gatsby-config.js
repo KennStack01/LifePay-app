@@ -11,10 +11,9 @@ require("dotenv").config({
 
 module.exports = {
   /* Your site config here */
-  /* Your site config here */
   siteMetadata: {
     title: `LifePay App`,
-    siteUrl: `https://www/lifepay.app`,
+    siteUrl: `https://www.lifepay.app`,
     author: "@LifeWordNation",
     description: `LifeWord Nation`,
     keywords: `Payments Gates, WeChat Pay, AliPay, PayPal, Bank Transfer`,
