@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import AboutContent from '../Components/PageComponents/AboutContent'
 import { IoArrowBack } from 'react-icons/io5'
+import SEO from '../Components/Seo'
+
 
 
 const styles = {
@@ -14,6 +16,7 @@ const about = () => {
     return (
 
         <div className={styles.layoutContent}>
+            <SEO title="LifePay - About" description="LifePay - About Us 🎉" />
             <div className="flex flex-row justify-between my-5">
                 <Link to="/">
                     <div className="text-4xl ml-3 mt-2 text-gray-800">

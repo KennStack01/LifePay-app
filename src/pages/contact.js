@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactContent from '../Components/PageComponents/ContactContent'
-
+import SEO from '../Components/Seo'
 
 import { Link } from 'gatsby'
 import { IoArrowBack } from 'react-icons/io5'
@@ -15,6 +15,7 @@ const styles = {
 const contact = () => {
     return (
         <div className={styles.layoutContent}>
+            <SEO title="LifePay - Contact" description="LifePay Social media links 🎉" />
             <div className="flex flex-row justify-between my-5">
                 <Link to="/">
                     <div className="text-4xl ml-3 mt-2 text-gray-800">
