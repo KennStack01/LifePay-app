@@ -16,7 +16,7 @@ const HomeComponent = () => {
         <div className={styles.layoutContent}>
             <div className="text-center mb-4 mt-0 md:my-auto md:h-screen md:w-96 md:bg-white md:shadow-md">
             {/* Logo */}
-                <h1 className="text-3xl md:text-6xl md:mt-20 font-semibold bg-yellow-700 w-full text-white py-5">LifePay App</h1>
+                <h1 className="text-3xl md:text-4xl md:mt-20 font-semibold bg-yellow-700 w-full text-white py-5">LifePay App</h1>
                 <p className="text-lg md:text-2xl font-medium text-gray-600 my-3">Quick Pay. Quick Offer.</p>
 
                 <div>
